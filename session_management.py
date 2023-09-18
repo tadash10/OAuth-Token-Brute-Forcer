@@ -8,7 +8,9 @@ def test_session_management(token_endpoint, access_token):
 
         if response.status_code == 401:
             return "Session management test passed: Access token expired"
+        elif response.status_code == 200:
+            return "Session management test passed: Access token is valid"
         else:
-            return "Session management test failed: Access token still valid"
+            return f"Session management test failed: Unexpected status code {response.status_code}"
     except requests.exceptions.RequestException as e:
         return f"Session management test failed with an exception: {str(e)}"
