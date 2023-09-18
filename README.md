@@ -6,8 +6,6 @@ Installation
 
     Clone the GitHub repository:
 
-    bash
-
 git clone https://github.com/yourusername/oauth-token-brute-forcer.git
 cd oauth-token-brute-forcer
 
