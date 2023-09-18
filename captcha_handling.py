@@ -5,7 +5,7 @@ def check_captcha_challenge(token_endpoint):
         # Send a GET request to the token endpoint to check for CAPTCHA challenge
         response = requests.get(token_endpoint, timeout=5)
 
-        if "captcha" in response.text.lower():
+        if response.status_code == 200 and "captcha" in response.text.lower():
             return True  # CAPTCHA challenge detected
         else:
             return False  # No CAPTCHA challenge detected
