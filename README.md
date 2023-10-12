@@ -57,7 +57,7 @@ Functions and Descriptions
 
     Throttling (throttling.py):
 
-    Throttling allows control over the rate of login attempts. It helps adjust the aggressiveness of testing by specifying the number of requests per second and the total number of requests to send.
+    Throttling allows control over the rate of login attempts. It helps adjust the aggressiveness of testing by specifying the number of requests per second and the total number of requests to send..
 
     Timeout Handling (timeout_handling.py):
 
