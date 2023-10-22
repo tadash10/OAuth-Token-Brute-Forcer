@@ -1,6 +1,7 @@
 # OAuth-Token-Brute-Forcer
 Introduction
 
+
 OAuth Token Brute-Forcer is a Python script designed for penetration testing and security assessments. It assists security professionals in testing the security of authentication mechanisms used in APIs that rely on OAuth for authorization. This tool is intended for educational and authorized testing purposes only.
 Installation
 
